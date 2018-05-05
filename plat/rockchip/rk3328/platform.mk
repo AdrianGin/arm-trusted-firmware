@@ -50,6 +50,7 @@ BL31_SOURCES		+=	${RK_GIC_SOURCES}				\
 
 ENABLE_PLAT_COMPAT 	:=	0
 MULTI_CONSOLE_API	:=	1
+ERRATA_A53_855873 := 1
 
 include lib/coreboot/coreboot.mk
 
